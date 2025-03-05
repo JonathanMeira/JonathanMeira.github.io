@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jonathan Meira - Software Analyst</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Custom Neobrutalism-inspired styles */
+      .neobrutalism-button {
+        border: 2px solid black;
+        background-color: transparent;
+        color: black;
+        font-weight: bold;
+        padding: 8px 16px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+
+      .neobrutalism-button:hover {
+        background-color: black;
+        color: white;
+      }
+
+      .neobrutalism-header {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 2rem;
+        letter-spacing: 1px;
+        color: black;
+        margin-bottom: 20px;
+      }
+
+      .neobrutalism-section {
+        padding: 20px;
+        border: 2px solid black;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body class="bg-white text-black">
+    <!-- Header -->
+    <header class="p-6 border-b-2 border-black">
+      <h1 class="neobrutalism-header">Jonathan Meira</h1>
+      <p class="text-2xl mt-2">Software Analyst</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="p-4 border-b border-black">
+      <ul class="flex justify-center space-x-6">
+        <li>
+          <a href="#about" class="neobrutalism-button">About</a>
+        </li>
+        <li>
+          <a href="#projects" class="neobrutalism-button">Projects</a>
+        </li>
+        <li>
+          <a href="#contact" class="neobrutalism-button">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="p-8">
+      <!-- About Section -->
+      <section id="about" class="neobrutalism-section">
+        <h2 class="text-4xl font-bold mb-4">About Me</h2>
+        <p class="text-lg leading-relaxed">
+          Hi, I'm Jonathan Meira—a passionate Software Analyst with a knack for
+          using technology to drive business efficiency. With extensive
+          experience in data analysis, process optimization, and strategic
+          planning, I thrive on turning complex challenges into clear,
+          actionable solutions.
+        </p>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="neobrutalism-section">
+        <h2 class="text-4xl font-bold mb-4">Projects</h2>
+        <div class="grid gap-8 md:grid-cols-2">
+          <div class="border border-black p-6">
+            <h3 class="text-2xl font-bold mb-2">Project One</h3>
+            <p>
+              A brief description of Project One. This project demonstrates my
+              ability to optimize workflows and improve efficiency using modern
+              software solutions.
+            </p>
+          </div>
+          <div class="border border-black p-6">
+            <h3 class="text-2xl font-bold mb-2">Project Two</h3>
+            <p>
+              A brief description of Project Two. In this project, I developed a
+              robust analytical tool that leverages data insights for strategic
+              decision-making.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="neobrutalism-section">
+        <h2 class="text-4xl font-bold mb-4">Contact</h2>
+        <p class="text-lg">
+          Interested in collaborating or learning more? Get in touch via email:
+          <a
+            href="mailto:jonathan.meira@example.com"
+            class="neobrutalism-button inline-block mt-2"
+            >jonathan.meira@example.com</a
+          >.
+        </p>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="p-6 border-t-2 border-black text-center">
+      <p>&copy; 2025 Jonathan Meira. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

@@ -43,9 +43,33 @@
   </head>
   <body class="bg-white text-black">
     <!-- Header -->
-    <header class="p-6 border-b-2 border-black">
-      <h1 class="neobrutalism-header">Jonathan Meira</h1>
-      <p class="text-2xl mt-2">Software Analyst</p>
+    <header class="p-6 border-b-2 border-black flex flex-col md:flex-row justify-between items-center">
+      <div class="mb-4 md:mb-0">
+        <h1 class="neobrutalism-header">Jonathan Meira</h1>
+        <p class="text-2xl mt-2">Software Analyst</p>
+      </div>
+      <div>
+        <ul class="flex space-x-4">
+          <li>
+            <a 
+              href="https://www.linkedin.com/in/jonathan-meira" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              class="neobrutalism-button">
+              LinkedIn
+            </a>
+          </li>
+          <li>
+            <a 
+              href="https://www.github.com/JonathanMeira" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              class="neobrutalism-button">
+              GitHub
+            </a>
+          </li>
+        </ul>
+      </div>
     </header>
 
     <!-- Navigation -->
@@ -57,9 +81,7 @@
         <li>
           <a href="#experience" class="neobrutalism-button">Experience</a>
         </li>
-        <li>
-          <a href="#contact" class="neobrutalism-button">Contact</a>
-        </li>
+       
       </ul>
     </nav>
 
@@ -139,23 +161,25 @@
         </div>
       </section>
 
-      <!-- Contact Section -->
-      <section id="contact" class="neobrutalism-section">
-        <h2 class="text-4xl font-bold mb-4">Contact</h2>
-        <p class="text-lg">
-          Interested in collaborating or learning more? Get in touch via email:
-          <a
-            href="mailto:jonathan.meira@example.com"
-            class="neobrutalism-button inline-block mt-2"
-            >jonathan.meira@example.com</a
-          >.
-        </p>
-      </section>
+      
     </main>
 
     <!-- Footer -->
     <footer class="p-6 border-t-2 border-black text-center">
-      <p>&copy; 2025 Jonathan Meira. All rights reserved.</p>
+      <p class="text-lg">
+        Connect with me on
+        <a 
+          href="https://www.linkedin.com/in/jonathan-meira"
+          target="_blank" 
+          rel="noopener noreferrer" 
+          class="neobrutalism-button inline-block ml-2">
+          LinkedIn
+        </a>
+      </p>
+      <p class="mt-4 text-sm">
+        &copy; 2025 Jonathan Meira. All rights reserved.
+      </p>
     </footer>
+    
   </body>
 </html>
